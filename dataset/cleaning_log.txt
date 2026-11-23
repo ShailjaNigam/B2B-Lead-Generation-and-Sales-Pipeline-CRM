@@ -1,0 +1,13 @@
+Data cleaning log
+=================
+- Loaded 512 leads, 673 contacts, 2102 activities, 174 opportunities, 6 reps
+- Standardised location for 35 rows (case, spaces, Bengaluru/New Delhi/Bombay aliases)
+- Standardised industry for 15 rows
+- Fixed lead_source spelling/case for 32 rows
+- Converted 25 dd/mm/yyyy lead dates to ISO format
+- Removed 12 duplicate leads (L0501, L0502, L0503, L0504, L0505, ...)
+- Imputed 10 missing employee counts with the industry median
+- Normalised all phones to +91XXXXXXXXXX (191 were in non-standard formats); 13 invalid phones set to blank
+- Lower-cased emails; flagged 20 invalid emails (kept, marked valid_email = False)
+- Referential integrity OK: every activity, opportunity and lead links to an existing parent row
+- Saved clean files: 500 leads, 673 contacts, 2102 activities, 174 opportunities

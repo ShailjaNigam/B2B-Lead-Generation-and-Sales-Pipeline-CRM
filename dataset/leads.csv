@@ -1,0 +1,501 @@
+lead_id,company_name,industry,location,employees,annual_revenue_cr,lead_source,lead_date,sales_id,status,max_stage_reached,lost_at_stage,lost_reason,decision_maker,interested,valid_contact,lead_score,lead_category
+L0001,Sapphire Digital,IT,Hyderabad,152,17.8,Events,2026-10-16,S05,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0002,Echo AI,Startup,Delhi,207,17.0,LinkedIn,2026-10-05,S01,New Lead,New Lead,,,True,False,True,75,Hot
+L0003,Nova Wealth,Finance,Bangalore,316,23.2,LinkedIn,2026-11-03,S02,Qualified,Qualified,,,True,True,True,100,Hot
+L0004,Bharat Hub,Startup,Mumbai,103,11.5,Events,2026-07-20,S03,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0005,Arc Systems,IT,Hyderabad,188,7.9,Website,2026-10-02,S05,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0006,Vista Credit,Finance,Delhi,372,16.3,Cold Email,2026-08-14,S01,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0007,Silver Steel,Manufacturing,Pune,291,15.9,Website,2026-10-31,S04,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0008,Arc AI,Startup,Bangalore,45,1.4,Website,2026-09-09,S02,Lost,Meeting Scheduled,Meeting Scheduled,Went with competitor,False,True,True,55,Warm
+L0009,Zenith Bazaar,E-commerce,Delhi,16,1.7,Website,2026-10-30,S01,New Lead,New Lead,,,False,False,True,30,Cold
+L0010,Core Capital,Finance,Mumbai,70,2.8,LinkedIn,2026-07-29,S03,Lost,Contacted,Contacted,Not interested,True,False,True,50,Warm
+L0011,Crest Retail,E-commerce,Bangalore,13,0.6,Website,2026-05-19,S02,Lost,Meeting Scheduled,Meeting Scheduled,Bad timing,True,True,True,75,Hot
+L0012,Orbit Retail,E-commerce,Delhi,52,2.0,Referral,2026-09-03,S01,Won,Won,,,False,True,True,55,Warm
+L0013,Swift Pharma,Healthcare,Delhi,235,7.7,Cold Email,2026-06-06,S01,New Lead,New Lead,,,True,False,True,55,Warm
+L0014,Cedar Infotech,IT,Pune,149,5.6,IndiaMART,2026-05-19,S04,Won,Won,,,True,True,True,75,Hot
+L0015,Pixel Engineering,Manufacturing,Delhi,203,19.2,Website,2026-07-25,S01,Lost,Contacted,Contacted,Not interested,False,False,True,55,Warm
+L0016,Swift Diagnostics,Healthcare,Bangalore,323,37.1,Cold Email,2026-10-17,S02,Lost,Contacted,Contacted,No response,False,False,True,35,Cold
+L0017,Cedar Studio,Startup,Mumbai,13,1.0,LinkedIn,2026-11-12,S03,Contacted,Contacted,,,True,False,True,50,Warm
+L0018,Delta Works,Startup,Bangalore,220,19.4,Cold Email,2026-09-03,S04,Lost,Contacted,Contacted,No response,False,False,True,55,Warm
+L0019,Silver Technologies,IT,Mumbai,173,13.2,IndiaMART,2026-07-10,S03,Lost,Qualified,Qualified,No budget,False,True,True,55,Warm
+L0020,Orbit Mart,E-commerce,Delhi,101,4.7,LinkedIn,2026-06-18,S01,Lost,Meeting Scheduled,Meeting Scheduled,Bad timing,True,True,True,75,Hot
+L0021,Nova Ventures,Startup,Mumbai,17,1.3,Cold Email,2026-09-03,S03,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0022,Monsoon Infotech,IT,Pune,140,6.0,Events,2026-09-22,S04,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0023,Vista Engineering,Manufacturing,Chennai,79,6.1,Website,2026-05-22,S04,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0024,Core Education,Education,Bangalore,36,2.6,LinkedIn,2026-07-02,S02,Lost,Contacted,Contacted,Not interested,False,False,True,10,Cold
+L0025,Cedar Manufacturing,Manufacturing,Chennai,187,6.9,LinkedIn,2026-08-09,S06,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0026,Saffron Studio,Startup,Bangalore,21,1.5,LinkedIn,2026-11-03,S02,Lost,Contacted,Contacted,Not interested,False,False,True,30,Cold
+L0027,Spark Technologies,IT,Hyderabad,153,14.0,Cold Email,2026-08-27,S05,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0028,Saffron Steel,Manufacturing,Chennai,223,6.8,Website,2026-06-07,S06,Lost,Contacted,Contacted,No response,False,False,True,55,Warm
+L0029,Fusion Labs,IT,Chennai,58,3.4,Events,2026-06-29,S06,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0030,Sapphire Software,IT,Mumbai,58,6.3,Events,2026-11-12,S03,New Lead,New Lead,,,True,False,True,50,Warm
+L0031,Prime Clinics,Healthcare,Mumbai,109,8.1,Cold Email,2026-11-20,S03,Contacted,Contacted,,,True,False,True,30,Cold
+L0032,Bright Software,IT,Hyderabad,127,13.3,LinkedIn,2026-10-20,S05,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0033,Prime Securities,Finance,Bangalore,288,28.8,Cold Email,2026-05-24,S02,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0034,Urban Wealth,Finance,Mumbai,216,39.8,IndiaMART,2026-09-14,S03,New Lead,New Lead,,,True,False,True,75,Hot
+L0035,Core Systems,IT,Hyderabad,254,29.9,Events,2026-11-19,S05,Contacted,Contacted,,,False,False,True,55,Warm
+L0036,Pixel Commerce,E-commerce,Delhi,96,3.4,LinkedIn,2026-05-04,S01,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0037,Aero Healthcare,Healthcare,Bangalore,215,21.4,LinkedIn,2026-11-09,S02,New Lead,New Lead,,,True,False,True,55,Warm
+L0038,Swift Hub,Startup,Mumbai,39,1.9,LinkedIn,2026-10-20,S03,Meeting Scheduled,Meeting Scheduled,,,True,True,True,75,Hot
+L0039,Lotus Mart,E-commerce,Bangalore,200,16.6,Cold Email,2026-06-19,S02,Lost,Qualified,Qualified,No budget,False,True,True,55,Warm
+L0040,Urban Studio,Startup,Pune,33,3.8,Referral,2026-05-03,S03,Lost,Contacted,Contacted,No response,True,False,False,40,Warm
+L0041,Arc Studio,Startup,Mumbai,57,5.1,Events,2026-06-22,S03,Lost,Qualified,Qualified,Bad timing,False,True,True,55,Warm
+L0042,Crest Labs,IT,Bangalore,146,6.0,IndiaMART,2026-09-02,S02,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0043,Arc Credit,Finance,Chennai,111,10.6,Events,2026-10-29,S06,Meeting Scheduled,Meeting Scheduled,,,True,True,True,75,Hot
+L0044,Arc Edutech,Education,Chennai,80,9.1,IndiaMART,2026-07-11,S06,Lost,Contacted,Contacted,No response,False,False,True,10,Cold
+L0045,Nova Labs,IT,Bangalore,443,15.3,IndiaMART,2026-09-14,S02,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0046,Nexa Pharma,Healthcare,Bangalore,121,6.2,LinkedIn,2026-10-28,S01,Lost,Contacted,Contacted,Not interested,True,False,True,30,Cold
+L0047,Orbit Steel,Manufacturing,Hyderabad,289,27.8,Events,2026-06-21,S05,Lost,Contacted,Contacted,Not interested,True,False,True,75,Hot
+L0048,Cedar Capital,Finance,Chennai,271,21.5,LinkedIn,2026-07-08,S06,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0049,Lotus Credit,Finance,Hyderabad,46,1.9,LinkedIn,2026-06-28,S05,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0050,Indus Software,IT,Pune,89,8.5,LinkedIn,2026-09-24,S04,New Lead,New Lead,,,True,False,True,50,Warm
+L0051,Coral Labs,Startup,Bangalore,65,7.2,LinkedIn,2026-06-27,S02,Won,Won,,,True,True,True,75,Hot
+L0052,Echo Labs,IT,Delhi,275,13.6,Cold Email,2026-04-30,S01,Lost,Contacted,Contacted,No response,False,False,True,55,Warm
+L0053,Fusion Academy,Education,Mumbai,62,4.7,IndiaMART,2026-05-10,S03,Lost,Contacted,Contacted,Not interested,True,False,True,30,Cold
+L0054,Cedar Life Sciences,Healthcare,Delhi,60,4.1,Events,2026-05-12,S01,Lost,Contacted,Contacted,No response,False,False,True,10,Cold
+L0055,Arc Hub,Startup,Bangalore,61,4.6,Referral,2026-10-28,S02,Proposal Sent,Proposal Sent,,,True,True,True,75,Hot
+L0056,Aero Wealth,Finance,Mumbai,268,20.7,LinkedIn,2026-11-12,S03,Contacted,Contacted,,,True,False,True,75,Hot
+L0057,Sapphire Infotech,IT,Bangalore,408,34.9,Referral,2026-09-01,S04,Won,Won,,,True,True,True,100,Hot
+L0058,Silver Diagnostics,Healthcare,Delhi,288,20.0,Website,2026-10-30,S01,Lost,Contacted,Contacted,No response,True,False,True,55,Warm
+L0059,Pixel Infotech,IT,Pune,1092,98.6,Website,2026-10-15,S04,Won,Won,,,True,True,True,100,Hot
+L0060,Fusion Polymers,Manufacturing,Bangalore,201,17.5,LinkedIn,2026-10-10,S02,Lost,Contacted,Contacted,No response,False,False,True,55,Warm
+L0061,Arc Labs,IT,Chennai,364,13.0,LinkedIn,2026-07-29,S06,Lost,Contacted,Contacted,Not interested,True,False,False,65,Warm
+L0062,Core Manufacturing,Manufacturing,Pune,108,5.5,Website,2026-09-24,S04,Lost,Contacted,Contacted,Not interested,False,False,True,30,Cold
+L0063,Spark Hub,Startup,Hyderabad,65,3.5,Referral,2026-08-15,S05,Won,Won,,,False,True,True,55,Warm
+L0064,Blue Engineering,Manufacturing,Bangalore,211,10.0,Events,2026-09-07,S03,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0065,Green Infotech,IT,Pune,129,8.3,Website,2026-11-08,S04,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0066,Coral Steel,Manufacturing,Pune,82,6.3,Cold Email,2026-07-05,S04,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0067,Kite Pharma,Healthcare,Bangalore,197,7.1,Events,2026-07-07,S02,Lost,Contacted,Contacted,No response,True,False,True,30,Cold
+L0068,Coral Commerce,E-commerce,Bangalore,132,10.0,Referral,2026-07-25,S02,New Lead,New Lead,,,True,False,True,50,Warm
+L0069,Green Diagnostics,Healthcare,Hyderabad,134,5.5,Cold Email,2026-06-24,S05,Won,Won,,,True,True,True,55,Warm
+L0070,Kite Engineering,Manufacturing,Bangalore,153,8.7,LinkedIn,2026-07-25,S02,Won,Won,,,True,True,True,75,Hot
+L0071,Aero Infotech,IT,Delhi,409,20.9,Events,2026-10-11,S01,New Lead,New Lead,,,False,False,True,55,Warm
+L0072,Orbit Credit,Finance,Bangalore,253,12.8,Referral,2026-06-13,S02,Lost,Contacted,Contacted,Not interested,True,False,True,75,Hot
+L0073,Spark Labs,Startup,Mumbai,69,6.0,IndiaMART,2026-10-29,S03,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0074,Bharat Digital,IT,Hyderabad,386,38.5,Events,2026-08-22,S06,Won,Won,,,True,True,True,100,Hot
+L0075,Lotus Infotech,IT,Delhi,123,11.9,Cold Email,2026-11-15,S01,Contacted,Contacted,,,True,False,True,50,Warm
+L0076,Bharat Finance,Finance,Chennai,97,6.2,Cold Email,2026-08-04,S06,Lost,Contacted,Contacted,Not interested,False,False,True,30,Cold
+L0077,Aero Labs,Startup,Bangalore,45,1.4,Cold Email,2026-05-23,S02,Lost,Meeting Scheduled,Meeting Scheduled,No budget,False,True,True,55,Warm
+L0078,Nexa AI,Startup,Bangalore,10,0.7,Cold Email,2026-10-04,S02,Lost,Qualified,Qualified,Not interested,True,True,True,75,Hot
+L0079,Vertex Healthcare,Healthcare,Bangalore,105,4.9,Website,2026-06-24,S02,Lost,Contacted,Contacted,No response,True,False,True,30,Cold
+L0080,Silver Life Sciences,Healthcare,Chennai,181,19.8,LinkedIn,2026-07-30,S06,Lost,Contacted,Contacted,No response,True,False,True,30,Cold
+L0081,Vista Hospitals,Healthcare,Delhi,377,12.9,IndiaMART,2026-08-18,S01,Lost,Contacted,Contacted,No response,True,False,True,55,Warm
+L0082,Urban Auto Parts,Manufacturing,Delhi,554,17.9,LinkedIn,2026-06-30,S01,Lost,Meeting Scheduled,Meeting Scheduled,Went with competitor,True,True,True,100,Hot
+L0083,Nova Software,IT,Mumbai,288,21.9,Cold Email,2026-04-28,S03,Lost,Qualified,Qualified,Using in-house tool,True,True,True,100,Hot
+L0084,Prime Systems,IT,Pune,402,29.8,Website,2026-10-18,S04,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0085,Lotus Software,IT,Chennai,106,7.2,LinkedIn,2026-11-04,S06,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0086,Orbit Works,Startup,Delhi,82,8.3,Cold Email,2026-08-22,S01,Lost,Qualified,Qualified,Using in-house tool,True,True,True,75,Hot
+L0087,Monsoon Technologies,IT,Bangalore,142,8.7,Website,2026-11-11,S02,New Lead,New Lead,,,False,False,True,30,Cold
+L0088,Nexa Digital,IT,Bangalore,164,16.7,Website,2026-04-26,S02,Won,Won,,,False,True,True,55,Warm
+L0089,Quantum Works,Startup,Bangalore,26,1.7,Referral,2026-10-13,S02,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0090,Vertex Diagnostics,Healthcare,Delhi,142,6.7,LinkedIn,2026-11-16,S01,New Lead,New Lead,,,True,False,True,30,Cold
+L0091,Pixel Hospitals,Healthcare,Bangalore,695,60.3,Events,2026-10-23,S02,Lost,Contacted,Contacted,No response,False,False,True,35,Cold
+L0092,Bharat Diagnostics,Healthcare,Pune,474,15.8,LinkedIn,2026-08-01,S04,Lost,Contacted,Contacted,No response,True,False,True,55,Warm
+L0093,Nova Digital,IT,Hyderabad,123,13.1,LinkedIn,2026-08-03,S05,Lost,Proposal Sent,Proposal Sent,Price too high,True,True,True,75,Hot
+L0094,Monsoon Digital,IT,Hyderabad,118,6.8,LinkedIn,2026-08-23,S05,Won,Won,,,True,True,True,75,Hot
+L0095,Lotus Kart,E-commerce,Delhi,190,12.2,IndiaMART,2026-05-24,S01,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0096,Zenith Edutech,Education,Delhi,235,17.7,LinkedIn,2026-06-06,S01,New Lead,New Lead,,,True,False,True,55,Warm
+L0097,Bright Hospitals,Healthcare,Delhi,68,4.4,Website,2026-07-01,S01,Lost,Qualified,Qualified,Not interested,False,True,False,25,Cold
+L0098,Green Academy,Education,Mumbai,47,2.0,Events,2026-09-10,S01,Lost,Contacted,Contacted,Not interested,True,False,True,30,Cold
+L0099,Sapphire Mart,E-commerce,Bangalore,74,7.0,LinkedIn,2026-07-21,S02,Lost,Meeting Scheduled,Meeting Scheduled,Bad timing,False,True,True,55,Warm
+L0100,Urban Finance,Finance,Bangalore,174,11.9,Cold Email,2026-10-28,S02,Lost,Contacted,Contacted,Not interested,True,False,True,50,Warm
+L0101,Echo Hub,Startup,Chennai,22,1.4,Website,2026-08-28,S06,Lost,Contacted,Contacted,Not interested,False,False,True,30,Cold
+L0102,Pixel Software,IT,Chennai,151,13.9,LinkedIn,2026-10-24,S06,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0103,Orbit Pharma,Healthcare,Chennai,139,7.4,LinkedIn,2026-09-26,S06,Lost,Contacted,Contacted,No response,False,False,True,10,Cold
+L0104,Core Technologies,IT,Mumbai,61,2.5,Events,2026-08-28,S03,Lost,Meeting Scheduled,Meeting Scheduled,No budget,True,True,True,75,Hot
+L0105,Vista Software,IT,Bangalore,249,11.3,Referral,2026-07-15,S02,Won,Won,,,True,True,True,100,Hot
+L0106,Maple Technologies,IT,Hyderabad,215,9.8,Referral,2026-11-19,S05,Qualified,Qualified,,,True,True,True,100,Hot
+L0107,Saffron Digital,IT,Chennai,166,19.4,Cold Email,2026-10-26,S06,Lost,Contacted,Contacted,Not interested,True,False,True,50,Warm
+L0108,Maple Engineering,Manufacturing,Delhi,372,21.4,LinkedIn,2026-06-25,S01,Lost,Meeting Scheduled,Meeting Scheduled,No budget,True,True,True,100,Hot
+L0109,Urban Healthcare,Healthcare,Pune,31,2.0,LinkedIn,2026-08-28,S04,Lost,Contacted,Contacted,No response,False,False,True,10,Cold
+L0110,Monsoon Fintech,Finance,Delhi,287,12.9,IndiaMART,2026-07-15,S01,New Lead,New Lead,,,True,False,True,75,Hot
+L0111,Prime Ventures,Startup,Chennai,82,5.8,Website,2026-10-11,S06,Lost,Contacted,Contacted,Not interested,False,False,True,30,Cold
+L0112,Monsoon Credit,Finance,Mumbai,125,4.1,IndiaMART,2026-09-10,S03,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0113,Nexa Labs,Startup,Pune,112,8.3,Website,2026-06-11,S04,Lost,Proposal Sent,Proposal Sent,Went with competitor,False,True,True,55,Warm
+L0114,Lotus Store,E-commerce,Mumbai,75,3.2,LinkedIn,2026-06-10,S03,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0115,Vista Edutech,Education,Mumbai,138,16.1,LinkedIn,2026-07-05,S03,Lost,Contacted,Contacted,No response,True,False,True,30,Cold
+L0116,Delta Learning,Education,Hyderabad,108,4.5,IndiaMART,2026-10-23,S05,Lost,Contacted,Contacted,No response,True,False,False,20,Cold
+L0117,Lotus Digital,IT,Pune,184,20.2,Cold Email,2026-07-05,S04,Lost,Contacted,Contacted,Not interested,True,False,True,50,Warm
+L0118,Cedar Works,Startup,Bangalore,80,6.0,Website,2026-08-22,S02,Won,Won,,,True,True,True,75,Hot
+L0119,Blue Manufacturing,Manufacturing,Delhi,166,11.2,IndiaMART,2026-07-15,S01,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0120,Nexa Technologies,IT,Mumbai,302,33.0,Cold Email,2026-10-01,S03,Lost,Contacted,Contacted,Not interested,True,False,True,75,Hot
+L0121,Nexa Industries,Manufacturing,Hyderabad,118,6.8,Cold Email,2026-06-06,S05,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0122,Ganga Ventures,Startup,Mumbai,90,10.0,Cold Email,2026-05-07,S03,Lost,Qualified,Qualified,Bad timing,True,True,True,75,Hot
+L0123,Swift Studio,Startup,Delhi,41,3.7,Events,2026-11-11,S01,Contacted,Contacted,,,True,False,True,50,Warm
+L0124,Bharat Polymers,Manufacturing,Hyderabad,209,22.6,Cold Email,2026-08-01,S05,Lost,Contacted,Contacted,Not interested,True,False,True,75,Hot
+L0125,Nova Healthcare,Healthcare,Bangalore,233,22.5,Website,2026-10-07,S02,Lost,Contacted,Contacted,No response,True,False,True,55,Warm
+L0126,Vista Diagnostics,Healthcare,Bangalore,186,8.8,Events,2026-07-04,S02,Lost,Contacted,Contacted,No response,True,False,True,30,Cold
+L0127,Silver Manufacturing,Manufacturing,Bangalore,156,18.1,Cold Email,2026-07-31,S04,Lost,Qualified,Qualified,Not interested,True,True,True,75,Hot
+L0128,Pixel Fintech,Finance,Bangalore,82,4.9,LinkedIn,2026-08-05,S02,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0129,Coral Systems,IT,Chennai,284,27.9,Cold Email,2026-04-19,S06,Lost,Negotiation,Negotiation,Bad timing,False,True,True,80,Hot
+L0130,Zenith Labs,Startup,Delhi,45,1.9,Referral,2026-06-07,S01,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0131,Delta Fintech,Finance,Hyderabad,200,21.7,Website,2026-05-22,S03,New Lead,New Lead,,,True,False,True,50,Warm
+L0132,Spark Learning,Education,Bangalore,267,19.6,Cold Email,2026-06-01,S02,Lost,Contacted,Contacted,No response,True,False,True,55,Warm
+L0133,Bright Kart,E-commerce,Hyderabad,58,4.8,LinkedIn,2026-06-12,S05,New Lead,New Lead,,,False,False,True,30,Cold
+L0134,Monsoon Capital,Finance,Delhi,454,34.7,Cold Email,2026-04-19,S01,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0135,Monsoon Institute,Education,Bangalore,55,6.3,Website,2026-10-10,S02,Lost,Contacted,Contacted,No response,True,False,True,30,Cold
+L0136,Fusion Hospitals,Healthcare,Hyderabad,70,4.5,Cold Email,2026-06-25,S05,Lost,Contacted,Contacted,No response,False,False,True,10,Cold
+L0137,Spark Ventures,Startup,Chennai,43,4.7,Referral,2026-06-09,S06,Lost,Meeting Scheduled,Meeting Scheduled,No budget,False,True,True,55,Warm
+L0138,Delta Credit,Finance,Mumbai,221,11.4,Website,2026-05-27,S03,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0139,Echo Digital,IT,Hyderabad,119,5.4,IndiaMART,2026-10-29,S05,Meeting Scheduled,Meeting Scheduled,,,False,True,True,55,Warm
+L0140,Sapphire Hub,Startup,Hyderabad,10,0.4,Cold Email,2026-09-27,S05,Lost,Meeting Scheduled,Meeting Scheduled,Bad timing,True,True,True,75,Hot
+L0141,Crest Steel,Manufacturing,Mumbai,302,13.4,Website,2026-11-19,S03,Contacted,Contacted,,,True,False,True,75,Hot
+L0142,Monsoon Auto Parts,Manufacturing,Bangalore,173,13.9,Events,2026-07-19,S02,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0143,Blue Infotech,IT,Mumbai,59,5.2,Website,2026-11-13,S04,Qualified,Qualified,,,False,True,True,55,Warm
+L0144,Delta Labs,IT,Chennai,75,4.0,Website,2026-10-15,S06,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0145,Silver Schools,Education,Delhi,232,14.2,Cold Email,2026-08-02,S01,Lost,Qualified,Qualified,Bad timing,False,True,True,60,Warm
+L0146,Silver Software,IT,Hyderabad,143,7.0,LinkedIn,2026-09-09,S05,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0147,Cedar Retail,E-commerce,Delhi,299,9.6,LinkedIn,2026-10-17,S01,Lost,Meeting Scheduled,Meeting Scheduled,Went with competitor,False,True,True,80,Hot
+L0148,Nova Hub,Startup,Pune,54,2.1,Events,2026-08-15,S04,Lost,Contacted,Contacted,Not interested,False,False,True,30,Cold
+L0149,Monsoon AI,Startup,Hyderabad,32,2.7,LinkedIn,2026-06-27,S05,Lost,Negotiation,Negotiation,Price too high,True,True,True,75,Hot
+L0150,Tru Infotech,IT,Hyderabad,136,9.3,Cold Email,2026-07-05,S05,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0151,Silver AI,Startup,Mumbai,19,2.1,Website,2026-07-17,S03,Lost,Contacted,Contacted,No response,False,False,False,20,Cold
+L0152,Quantum AI,Startup,Mumbai,99,3.1,LinkedIn,2026-08-19,S03,Won,Won,,,True,True,True,75,Hot
+L0153,Fusion Steel,Manufacturing,Bangalore,700,48.0,Events,2026-05-03,S02,Lost,Meeting Scheduled,Meeting Scheduled,No budget,False,True,True,80,Hot
+L0154,Zenith Commerce,E-commerce,Bangalore,316,29.1,Referral,2026-11-03,S02,Lost,Contacted,Contacted,Not interested,True,False,True,75,Hot
+L0155,Vista Capital,Finance,Bangalore,357,41.9,IndiaMART,2026-07-21,S02,New Lead,New Lead,,,False,False,True,55,Warm
+L0156,Tru Industries,Manufacturing,Mumbai,285,29.7,Events,2026-06-05,S03,Lost,Qualified,Qualified,No budget,True,True,True,100,Hot
+L0157,Indus Fintech,Finance,Mumbai,179,15.4,Cold Email,2026-11-03,S03,New Lead,New Lead,,,True,False,True,50,Warm
+L0158,Maple Hub,Startup,Bangalore,63,2.0,Referral,2026-11-05,S02,Qualified,Qualified,,,True,True,True,75,Hot
+L0159,Vista Labs,IT,Chennai,516,52.8,LinkedIn,2026-10-06,S06,Negotiation,Negotiation,,,True,True,True,100,Hot
+L0160,Fusion Software,IT,Bangalore,409,46.5,Events,2026-09-19,S02,Lost,Contacted,Contacted,No response,False,False,True,55,Warm
+L0161,Kite Ventures,Startup,Hyderabad,118,14.1,Cold Email,2026-09-26,S05,Lost,Contacted,Contacted,Not interested,True,False,True,50,Warm
+L0162,Maple Bazaar,E-commerce,Delhi,53,3.3,Cold Email,2026-09-27,S01,Lost,Contacted,Contacted,Not interested,False,False,True,30,Cold
+L0163,Apex Ventures,Startup,Hyderabad,23,1.3,Website,2026-07-18,S05,Lost,Contacted,Contacted,Not interested,True,False,True,50,Warm
+L0164,Apex Securities,Finance,Bangalore,179,7.3,Cold Email,2026-10-26,S02,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0165,Quantum Ventures,Startup,Delhi,48,4.9,Referral,2026-10-08,S01,Proposal Sent,Proposal Sent,,,True,True,True,75,Hot
+L0166,Core Engineering,Manufacturing,Mumbai,42,1.5,Referral,2026-09-14,S03,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0167,Orbit Technologies,IT,Delhi,287,23.1,IndiaMART,2026-10-12,S01,Lost,Contacted,Contacted,No response,False,False,True,55,Warm
+L0168,Tru Hub,Startup,Bangalore,24,2.9,Events,2026-09-23,S02,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0169,Maple Labs,IT,Bangalore,132,15.2,LinkedIn,2026-09-11,S02,Lost,Qualified,Qualified,Not interested,True,True,True,75,Hot
+L0170,Crest Store,E-commerce,Chennai,669,30.3,LinkedIn,2026-09-13,S06,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0171,Vertex Education,Education,Delhi,96,6.4,Cold Email,2026-10-16,S01,Lost,Contacted,Contacted,No response,True,False,True,30,Cold
+L0172,Echo Diagnostics,Healthcare,Bangalore,41,2.9,Events,2026-09-18,S02,Proposal Sent,Proposal Sent,,,True,True,True,55,Warm
+L0173,Ganga Education,Education,Mumbai,57,5.2,Website,2026-07-22,S03,Lost,Meeting Scheduled,Meeting Scheduled,Bad timing,False,True,True,35,Cold
+L0174,Spark Finance,Finance,Bangalore,389,42.6,Referral,2026-04-28,S02,Won,Won,,,True,True,True,100,Hot
+L0175,Saffron Labs,IT,Delhi,35,1.3,IndiaMART,2026-10-09,S01,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0176,Bright Commerce,E-commerce,Mumbai,136,6.4,LinkedIn,2026-06-19,S03,New Lead,New Lead,,,False,False,True,30,Cold
+L0177,Quantum Healthcare,Healthcare,Bangalore,272,26.7,Events,2026-06-10,S02,Lost,Contacted,Contacted,Not interested,True,False,True,55,Warm
+L0178,Pixel Store,E-commerce,Bangalore,364,30.6,Cold Email,2026-09-22,S05,Lost,Contacted,Contacted,No response,False,False,True,55,Warm
+L0179,Aero Bazaar,E-commerce,Mumbai,69,8.1,Cold Email,2026-05-28,S02,Lost,Negotiation,Negotiation,Price too high,True,True,True,75,Hot
+L0180,Maple Learning,Education,Pune,111,7.2,Events,2026-05-30,S04,Lost,Contacted,Contacted,No response,True,False,True,30,Cold
+L0181,Ganga Software,IT,Bangalore,220,8.3,LinkedIn,2026-06-01,S02,Lost,Meeting Scheduled,Meeting Scheduled,Bad timing,True,True,True,100,Hot
+L0182,Blue Diagnostics,Healthcare,Bangalore,215,17.7,LinkedIn,2026-11-14,S02,Contacted,Contacted,,,False,False,True,35,Cold
+L0183,Orbit Software,IT,Mumbai,204,9.2,Website,2026-10-06,S03,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0184,Silver Edutech,Education,Delhi,224,20.9,Referral,2026-06-07,S01,Lost,Meeting Scheduled,Meeting Scheduled,Bad timing,False,True,True,60,Warm
+L0185,Orbit Bazaar,E-commerce,Delhi,79,3.2,IndiaMART,2026-08-10,S01,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0186,Pixel Digital,IT,Delhi,383,43.2,Website,2026-07-17,S01,New Lead,New Lead,,,True,False,True,75,Hot
+L0187,Bharat Bazaar,E-commerce,Chennai,186,20.8,LinkedIn,2026-09-03,S06,Lost,Meeting Scheduled,Meeting Scheduled,No budget,True,True,True,75,Hot
+L0188,Vertex Labs,IT,Bangalore,86,10.1,Referral,2026-10-12,S02,Lost,Contacted,Contacted,Not interested,True,False,True,50,Warm
+L0189,Tru Securities,Finance,Chennai,123,9.4,LinkedIn,2026-08-18,S06,Won,Won,,,True,True,True,75,Hot
+L0190,Bharat Infotech,IT,Delhi,139,14.1,IndiaMART,2026-10-26,S01,New Lead,New Lead,,,False,False,True,30,Cold
+L0191,Sapphire Education,Education,Chennai,281,17.4,LinkedIn,2026-05-11,S06,Lost,Contacted,Contacted,Not interested,False,False,True,35,Cold
+L0192,Coral Hub,Startup,Chennai,58,2.5,Website,2026-06-13,S06,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0193,Fusion Pharma,Healthcare,Chennai,115,7.6,Cold Email,2026-08-09,S06,Lost,Contacted,Contacted,No response,False,False,True,10,Cold
+L0194,Orbit Clinics,Healthcare,Bangalore,252,13.0,LinkedIn,2026-05-29,S02,New Lead,New Lead,,,True,False,False,45,Warm
+L0195,Arc Polymers,Manufacturing,Pune,111,8.7,Referral,2026-07-25,S04,Won,Won,,,True,True,True,75,Hot
+L0196,Vertex Digital,IT,Bangalore,205,8.2,Website,2026-07-13,S02,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0197,Spark Systems,IT,Bangalore,59,3.9,Cold Email,2026-09-23,S02,Lost,Meeting Scheduled,Meeting Scheduled,No budget,False,True,True,55,Warm
+L0198,Bharat Auto Parts,Manufacturing,Delhi,164,12.5,Cold Email,2026-11-01,S01,Qualified,Qualified,,,True,True,True,75,Hot
+L0199,Vertex Polymers,Manufacturing,Delhi,384,29.0,Cold Email,2026-09-29,S01,Proposal Sent,Proposal Sent,,,True,True,True,100,Hot
+L0200,Quantum Labs,IT,Mumbai,135,14.0,Cold Email,2026-09-13,S03,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0201,Peak Pharma,Healthcare,Hyderabad,114,3.9,Website,2026-06-11,S05,Lost,Contacted,Contacted,Not interested,False,False,True,10,Cold
+L0202,Sapphire Academy,Education,Chennai,119,8.6,IndiaMART,2026-04-21,S06,Lost,Proposal Sent,Proposal Sent,Price too high,True,True,True,55,Warm
+L0203,Bharat Software,IT,Bangalore,149,13.5,Cold Email,2026-11-15,S02,Contacted,Contacted,,,True,False,True,50,Warm
+L0204,Nova Fintech,Finance,Bangalore,411,26.8,Cold Email,2026-10-14,S01,Lost,Contacted,Contacted,Not interested,True,False,True,75,Hot
+L0205,Zenith Clinics,Healthcare,Mumbai,189,19.5,LinkedIn,2026-07-30,S03,Lost,Qualified,Qualified,No budget,True,True,True,55,Warm
+L0206,Tru Software,IT,Bangalore,159,7.4,Cold Email,2026-08-19,S02,Lost,Contacted,Contacted,Not interested,False,False,True,30,Cold
+L0207,Maple Clinics,Healthcare,Bangalore,332,20.1,LinkedIn,2026-10-22,S04,Lost,Contacted,Contacted,Not interested,True,False,True,55,Warm
+L0208,Echo Finance,Finance,Bangalore,117,9.5,LinkedIn,2026-08-09,S02,Lost,Contacted,Contacted,Not interested,False,False,True,30,Cold
+L0209,Swift Engineering,Manufacturing,Chennai,203,23.1,IndiaMART,2026-11-05,S06,Contacted,Contacted,,,False,False,True,55,Warm
+L0210,Lotus Bazaar,E-commerce,Hyderabad,289,18.3,Referral,2026-11-05,S05,New Lead,New Lead,,,True,False,True,75,Hot
+L0211,Nexa Infotech,IT,Delhi,149,9.5,Cold Email,2026-09-13,S01,Lost,Proposal Sent,Proposal Sent,Went with competitor,True,True,True,75,Hot
+L0212,Lotus Engineering,Manufacturing,Bangalore,101,8.8,LinkedIn,2026-11-04,S02,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0213,Vista Healthcare,Healthcare,Bangalore,52,4.7,LinkedIn,2026-08-08,S02,Lost,Contacted,Contacted,No response,True,False,True,30,Cold
+L0214,Indus Hub,Startup,Mumbai,41,3.6,Referral,2026-09-13,S03,Lost,Contacted,Contacted,Not interested,True,False,True,50,Warm
+L0215,Ganga Systems,IT,Mumbai,109,8.8,LinkedIn,2026-08-23,S03,Lost,Contacted,Contacted,Not interested,False,False,True,30,Cold
+L0216,Maple Capital,Finance,Bangalore,561,34.1,Cold Email,2026-06-05,S02,Lost,Contacted,Contacted,No response,False,False,True,55,Warm
+L0217,Tru Clinics,Healthcare,Bangalore,282,28.0,Cold Email,2026-07-11,S02,New Lead,New Lead,,,False,False,True,35,Cold
+L0218,Cedar Mart,E-commerce,Bangalore,154,14.5,Cold Email,2026-10-28,S02,Lost,Qualified,Qualified,Not interested,False,True,True,55,Warm
+L0219,Crest Healthcare,Healthcare,Pune,650,61.2,Website,2026-11-03,S04,New Lead,New Lead,,,False,False,True,35,Cold
+L0220,Indus Labs,IT,Bangalore,140,14.8,Events,2026-09-20,S02,Lost,Qualified,Qualified,Bad timing,False,True,True,55,Warm
+L0221,Spark Software,IT,Delhi,181,18.2,Website,2026-07-15,S01,New Lead,New Lead,,,True,False,True,50,Warm
+L0222,Green Systems,IT,Pune,152,3.9,Events,2026-09-06,S04,Won,Won,,,False,True,True,55,Warm
+L0223,Blue AI,Startup,Mumbai,43,3.7,Website,2026-08-01,S03,Won,Won,,,True,True,True,75,Hot
+L0224,Cedar Software,IT,Delhi,39,2.2,Website,2026-07-07,S01,Lost,Contacted,Contacted,Not interested,True,False,True,50,Warm
+L0225,Silver Education,Education,Bangalore,45,1.4,Website,2026-08-15,S02,Lost,Meeting Scheduled,Meeting Scheduled,Bad timing,True,True,True,55,Warm
+L0226,Zenith Technologies,IT,Bangalore,104,3.7,LinkedIn,2026-08-11,S02,Won,Won,,,False,True,True,55,Warm
+L0227,Arc Digital,IT,Bangalore,101,4.1,Website,2026-08-31,S06,Lost,Qualified,Qualified,Not interested,False,True,True,55,Warm
+L0228,Crest Software,IT,Bangalore,147,5.2,LinkedIn,2026-10-25,S02,New Lead,New Lead,,,True,False,False,40,Warm
+L0229,Core Fintech,Finance,Chennai,771,39.0,LinkedIn,2026-05-08,S06,New Lead,New Lead,,,True,False,True,75,Hot
+L0230,Fusion Commerce,E-commerce,Hyderabad,256,22.0,LinkedIn,2026-07-03,S05,Lost,Qualified,Qualified,Not interested,True,True,True,100,Hot
+L0231,Peak Systems,IT,Chennai,59,5.4,Cold Email,2026-05-11,S06,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0232,Monsoon Industries,Manufacturing,Mumbai,537,57.5,LinkedIn,2026-11-01,S03,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0233,Core Labs,Startup,Pune,57,4.2,Events,2026-09-11,S04,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0234,Orbit Labs,IT,Bangalore,244,24.7,Cold Email,2026-11-06,S02,New Lead,New Lead,,,True,False,True,75,Hot
+L0235,Silver Digital,IT,Bangalore,752,74.4,Website,2026-07-26,S02,Lost,Contacted,Contacted,Not interested,False,False,True,55,Warm
+L0236,Lotus Wealth,Finance,Delhi,261,14.8,Website,2026-08-16,S01,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0237,Spark Studio,Startup,Delhi,37,1.7,Cold Email,2026-10-15,S01,Lost,Qualified,Qualified,Not interested,True,True,True,75,Hot
+L0238,Echo Infotech,IT,Mumbai,310,16.6,IndiaMART,2026-07-08,S03,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0239,Nova Technologies,IT,Bangalore,130,9.3,LinkedIn,2026-06-29,S02,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0240,Apex Technologies,IT,Mumbai,89,4.9,IndiaMART,2026-07-11,S03,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0241,Bharat Systems,IT,Chennai,144,16.3,Cold Email,2026-09-11,S06,New Lead,New Lead,,,False,False,True,30,Cold
+L0242,Echo Kart,E-commerce,Bangalore,92,9.2,LinkedIn,2026-08-01,S02,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0243,Nexa Hub,Startup,Delhi,20,1.7,Referral,2026-09-26,S01,Lost,Proposal Sent,Proposal Sent,Price too high,False,True,True,55,Warm
+L0244,Sapphire AI,Startup,Bangalore,54,6.0,Website,2026-06-27,S03,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0245,Bright Digital,IT,Chennai,129,9.3,Website,2026-07-29,S06,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0246,Sapphire Schools,Education,Bangalore,145,15.6,LinkedIn,2026-08-11,S02,Lost,Contacted,Contacted,No response,False,False,True,10,Cold
+L0247,Coral Finance,Finance,Mumbai,607,20.6,IndiaMART,2026-10-20,S03,Meeting Scheduled,Meeting Scheduled,,,True,True,True,100,Hot
+L0248,Bright Hub,Startup,Pune,46,2.8,LinkedIn,2026-07-19,S04,Lost,Qualified,Qualified,Not interested,False,True,True,55,Warm
+L0249,Coral Technologies,IT,Chennai,62,6.1,LinkedIn,2026-07-20,S06,Lost,Meeting Scheduled,Meeting Scheduled,Bad timing,False,True,True,55,Warm
+L0250,Core Infotech,IT,Hyderabad,1000,119.1,Website,2026-11-19,S05,Contacted,Contacted,,,False,False,True,55,Warm
+L0251,Aero Schools,Education,Delhi,322,28.5,Website,2026-10-14,S01,Lost,Contacted,Contacted,No response,True,False,True,55,Warm
+L0252,Tru Education,Education,Chennai,549,25.1,Referral,2026-04-23,S06,Lost,Meeting Scheduled,Meeting Scheduled,No budget,False,True,True,60,Warm
+L0253,Kite Commerce,E-commerce,Mumbai,135,13.8,Website,2026-10-12,S03,Proposal Sent,Proposal Sent,,,True,True,True,75,Hot
+L0254,Vertex Learning,Education,Chennai,49,1.9,Website,2026-06-21,S06,Lost,Meeting Scheduled,Meeting Scheduled,No budget,True,True,True,55,Warm
+L0255,Blue Fintech,Finance,Pune,120,11.4,Events,2026-06-20,S04,New Lead,New Lead,,,True,False,True,50,Warm
+L0256,Urban Securities,Finance,Hyderabad,141,5.3,Referral,2026-09-25,S04,Negotiation,Negotiation,,,True,True,True,75,Hot
+L0257,Pixel Academy,Education,Chennai,117,4.5,Website,2026-11-01,S06,New Lead,New Lead,,,True,False,True,30,Cold
+L0258,Quantum Steel,Manufacturing,Delhi,81,5.8,LinkedIn,2026-07-19,S01,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0259,Arc Steel,Manufacturing,Pune,336,29.3,Website,2026-08-09,S02,Lost,Meeting Scheduled,Meeting Scheduled,Went with competitor,True,True,True,100,Hot
+L0260,Maple Credit,Finance,Hyderabad,361,32.4,Website,2026-10-03,S05,Lost,Contacted,Contacted,No response,False,False,True,55,Warm
+L0261,Vista Ventures,Startup,Delhi,111,11.0,Events,2026-09-01,S01,Lost,Qualified,Qualified,Bad timing,True,True,True,75,Hot
+L0262,Apex Mart,E-commerce,Chennai,237,10.4,Website,2026-07-16,S06,Lost,Contacted,Contacted,Not interested,True,False,True,75,Hot
+L0263,Quantum Store,E-commerce,Pune,153,13.3,IndiaMART,2026-10-02,S04,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0264,Zenith Kart,E-commerce,Bangalore,364,16.0,Cold Email,2026-08-06,S02,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0265,Sapphire Technologies,IT,Hyderabad,152,38.1,LinkedIn,2026-09-04,S05,Won,Won,,,True,True,True,75,Hot
+L0266,Crest Kart,E-commerce,Chennai,65,3.7,Events,2026-05-08,S06,Lost,Qualified,Qualified,Using in-house tool,True,True,True,75,Hot
+L0267,Indus Kart,E-commerce,Bangalore,75,3.0,Events,2026-09-03,S04,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0268,Echo Auto Parts,Manufacturing,Mumbai,369,18.7,IndiaMART,2026-11-16,S03,Contacted,Contacted,,,True,False,True,75,Hot
+L0269,Orbit Systems,IT,Mumbai,297,18.3,Referral,2026-10-21,S03,Lost,Contacted,Contacted,No response,False,False,True,55,Warm
+L0270,Prime Studio,Startup,Delhi,66,4.3,LinkedIn,2026-10-22,S01,Lost,Contacted,Contacted,Not interested,True,False,True,50,Warm
+L0271,Vertex Kart,E-commerce,Delhi,141,16.7,Referral,2026-06-24,S01,Lost,Contacted,Contacted,Not interested,True,False,True,50,Warm
+L0272,Bright Industries,Manufacturing,Bangalore,342,28.1,LinkedIn,2026-05-24,S02,Lost,Contacted,Contacted,No response,True,False,False,65,Warm
+L0273,Aero Hub,Startup,Pune,71,2.3,Cold Email,2026-10-19,S06,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0274,Zenith Fintech,Finance,Bangalore,181,15.4,LinkedIn,2026-10-11,S02,New Lead,New Lead,,,True,False,True,50,Warm
+L0275,Monsoon Polymers,Manufacturing,Mumbai,177,17.7,IndiaMART,2026-07-12,S03,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0276,Silver Industries,Manufacturing,Bangalore,159,15.2,Cold Email,2026-06-17,S02,Lost,Contacted,Contacted,Not interested,True,False,True,50,Warm
+L0277,Saffron Hospitals,Healthcare,Bangalore,128,9.1,IndiaMART,2026-08-12,S02,Lost,Contacted,Contacted,No response,False,False,True,10,Cold
+L0278,Bright Wealth,Finance,Bangalore,101,5.9,LinkedIn,2026-07-15,S02,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0279,Nova Systems,IT,Bangalore,293,21.2,Cold Email,2026-07-04,S02,Lost,Contacted,Contacted,No response,False,False,True,55,Warm
+L0280,Zenith Digital,IT,Mumbai,77,7.3,LinkedIn,2026-06-15,S03,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0281,Orbit Hub,Startup,Delhi,16,1.5,Events,2026-10-11,S01,Proposal Sent,Proposal Sent,,,True,True,True,75,Hot
+L0282,Prime Diagnostics,Healthcare,Bangalore,90,9.9,LinkedIn,2026-08-19,S02,Lost,Contacted,Contacted,No response,False,False,True,10,Cold
+L0283,Saffron Technologies,IT,Mumbai,79,4.1,LinkedIn,2026-11-08,S03,Contacted,Contacted,,,True,False,True,50,Warm
+L0284,Vista Manufacturing,Manufacturing,Pune,346,13.2,LinkedIn,2026-08-21,S05,Lost,Contacted,Contacted,No response,False,False,True,55,Warm
+L0285,Spark Infotech,IT,Mumbai,498,59.1,Website,2026-07-11,S03,Lost,Contacted,Contacted,Not interested,True,False,True,75,Hot
+L0286,Nexa Kart,E-commerce,Chennai,108,6.2,LinkedIn,2026-07-17,S06,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0287,Swift Infotech,IT,Pune,227,8.8,Website,2026-04-26,S04,Lost,Contacted,Contacted,Not interested,False,False,True,55,Warm
+L0288,Prime Industries,Manufacturing,Bangalore,136,12.9,Website,2026-06-21,S02,Won,Won,,,True,True,True,75,Hot
+L0289,Pixel Auto Parts,Manufacturing,Bangalore,58,5.8,LinkedIn,2026-10-05,S02,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0290,Vista Studio,Startup,Pune,14,1.4,IndiaMART,2026-11-12,S04,Contacted,Contacted,,,True,False,True,50,Warm
+L0291,Apex Labs,IT,Hyderabad,167,8.1,Cold Email,2026-08-30,S05,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0292,Kite Systems,IT,Mumbai,298,28.0,Cold Email,2026-09-14,S03,Won,Won,,,True,True,True,100,Hot
+L0293,Crest Hub,Startup,Bangalore,62,1.9,Website,2026-07-23,S02,Lost,Proposal Sent,Proposal Sent,No budget,False,True,True,55,Warm
+L0294,Arc Securities,Finance,Hyderabad,483,23.0,Cold Email,2026-07-16,S05,Lost,Contacted,Contacted,Not interested,False,False,True,55,Warm
+L0295,Kite Healthcare,Healthcare,Bangalore,1052,110.4,LinkedIn,2026-10-24,S02,Lost,Contacted,Contacted,No response,False,False,True,35,Cold
+L0296,Nova Finance,Finance,Delhi,164,17.8,Cold Email,2026-07-30,S01,Lost,Proposal Sent,Proposal Sent,No budget,True,True,True,75,Hot
+L0297,Pixel Systems,IT,Bangalore,124,4.0,Website,2026-09-12,S02,Lost,Contacted,Contacted,Not interested,False,False,True,30,Cold
+L0298,Crest Technologies,IT,Chennai,456,16.8,LinkedIn,2026-08-06,S06,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0299,Maple Software,IT,Mumbai,141,13.5,LinkedIn,2026-06-05,S03,New Lead,New Lead,,,True,False,True,50,Warm
+L0300,Nexa Polymers,Manufacturing,Pune,421,44.0,Cold Email,2026-10-08,S04,Meeting Scheduled,Meeting Scheduled,,,False,True,True,80,Hot
+L0301,Swift Software,IT,Delhi,82,6.2,LinkedIn,2026-10-10,S01,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0302,Green Technologies,IT,Bangalore,254,26.4,LinkedIn,2026-10-30,S02,Meeting Scheduled,Meeting Scheduled,,,False,True,True,80,Hot
+L0303,Ganga Finance,Finance,Bangalore,353,12.4,Website,2026-06-14,S02,Won,Won,,,True,True,True,100,Hot
+L0304,Sapphire Institute,Education,Delhi,38,2.8,Cold Email,2026-10-05,S01,Lost,Contacted,Contacted,Not interested,True,False,True,30,Cold
+L0305,Coral Life Sciences,Healthcare,Mumbai,263,14.1,Cold Email,2026-09-22,S03,New Lead,New Lead,,,True,False,True,55,Warm
+L0306,Bright Engineering,Manufacturing,Delhi,153,12.6,LinkedIn,2026-06-21,S01,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0307,Core Edutech,Education,Hyderabad,29,3.2,IndiaMART,2026-08-14,S05,Lost,Meeting Scheduled,Meeting Scheduled,No budget,True,True,True,55,Warm
+L0308,Fusion Fintech,Finance,Hyderabad,435,28.3,LinkedIn,2026-06-30,S05,Lost,Contacted,Contacted,Not interested,True,False,True,75,Hot
+L0309,Core Credit,Finance,Bangalore,1138,57.8,Website,2026-10-13,S02,Lost,Contacted,Contacted,Not interested,True,False,True,75,Hot
+L0310,Sapphire Steel,Manufacturing,Mumbai,200,15.2,LinkedIn,2026-05-26,S03,Lost,Contacted,Contacted,Not interested,False,False,True,30,Cold
+L0311,Indus Finance,Finance,Pune,132,13.0,Cold Email,2026-11-16,S04,Qualified,Qualified,,,True,True,True,75,Hot
+L0312,Delta Technologies,IT,Hyderabad,59,4.0,LinkedIn,2026-08-08,S05,New Lead,New Lead,,,True,False,True,50,Warm
+L0313,Vertex Life Sciences,Healthcare,Mumbai,102,6.0,Events,2026-07-19,S03,Lost,Contacted,Contacted,Not interested,True,False,True,30,Cold
+L0314,Urban Store,E-commerce,Bangalore,225,26.8,Website,2026-10-18,S02,Proposal Sent,Proposal Sent,,,False,True,True,80,Hot
+L0315,Spark Digital,IT,Bangalore,61,4.4,Website,2026-10-03,S02,Won,Won,,,False,True,True,55,Warm
+L0316,Green Works,Startup,Bangalore,187,22.4,Events,2026-11-01,S06,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0317,Swift Bazaar,E-commerce,Mumbai,68,4.4,LinkedIn,2026-04-02,S03,Lost,Meeting Scheduled,Meeting Scheduled,Went with competitor,False,True,True,55,Warm
+L0318,Quantum Commerce,E-commerce,Pune,69,7.6,Cold Email,2026-07-17,S04,Lost,Meeting Scheduled,Meeting Scheduled,Bad timing,True,True,True,75,Hot
+L0319,Swift Digital,IT,Chennai,152,6.5,Events,2026-04-05,S06,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0320,Urban Hub,Startup,Bangalore,10,0.7,Cold Email,2026-11-02,S02,New Lead,New Lead,,,True,False,True,50,Warm
+L0321,Monsoon Systems,IT,Bangalore,62,5.5,Cold Email,2026-07-26,S02,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0322,Quantum Hub,Startup,Mumbai,49,5.8,LinkedIn,2026-10-12,S03,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0323,Pixel Wealth,Finance,Delhi,371,25.4,LinkedIn,2026-07-08,S01,Won,Won,,,True,True,True,100,Hot
+L0324,Indus Commerce,E-commerce,Mumbai,160,5.5,LinkedIn,2026-10-27,S03,Lost,Qualified,Qualified,Using in-house tool,False,True,True,55,Warm
+L0325,Aero Life Sciences,Healthcare,Chennai,291,19.2,LinkedIn,2026-09-19,S06,Lost,Contacted,Contacted,Not interested,True,False,True,55,Warm
+L0326,Blue Institute,Education,Bangalore,139,7.1,LinkedIn,2026-06-19,S04,Lost,Negotiation,Negotiation,Went with competitor,True,True,False,45,Warm
+L0327,Zenith Wealth,Finance,Mumbai,306,13.6,LinkedIn,2026-10-20,S03,Lost,Contacted,Contacted,Not interested,False,False,True,55,Warm
+L0328,Cedar Labs,Startup,Chennai,27,1.9,Website,2026-09-11,S05,New Lead,New Lead,,,True,False,True,50,Warm
+L0329,Nova Infotech,IT,Delhi,91,4.8,LinkedIn,2026-04-24,S02,Lost,Contacted,Contacted,Not interested,False,False,True,30,Cold
+L0330,Echo Technologies,IT,Chennai,100,9.7,Events,2026-08-04,S06,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0331,Spark Wealth,Finance,Delhi,216,22.6,LinkedIn,2026-10-15,S01,Lost,Contacted,Contacted,No response,False,False,True,55,Warm
+L0332,Ganga Wealth,Finance,Chennai,115,11.2,Website,2026-11-14,S06,Contacted,Contacted,,,False,False,True,30,Cold
+L0333,Urban Software,IT,Delhi,99,7.7,IndiaMART,2026-08-16,S01,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0334,Nova Bazaar,E-commerce,Chennai,127,7.9,IndiaMART,2026-06-05,S06,Lost,Qualified,Qualified,Not interested,True,True,True,75,Hot
+L0335,Bright Works,Startup,Mumbai,45,1.7,Cold Email,2026-11-01,S03,Meeting Scheduled,Meeting Scheduled,,,False,True,True,55,Warm
+L0336,Kite Fintech,Finance,Delhi,133,6.2,Referral,2026-11-16,S01,Contacted,Contacted,,,False,False,True,30,Cold
+L0337,Apex Polymers,Manufacturing,Delhi,623,51.8,LinkedIn,2026-07-03,S01,Lost,Contacted,Contacted,Not interested,True,False,True,75,Hot
+L0338,Lotus Studio,Startup,Bangalore,28,2.2,LinkedIn,2026-11-11,S02,Qualified,Qualified,,,False,True,True,55,Warm
+L0339,Cedar Technologies,IT,Pune,205,24.5,LinkedIn,2026-08-09,S04,Won,Won,,,True,True,False,90,Hot
+L0340,Maple Auto Parts,Manufacturing,Bangalore,281,24.2,Cold Email,2026-07-31,S02,Won,Won,,,True,True,True,100,Hot
+L0341,Bharat Kart,E-commerce,Pune,226,18.5,Cold Email,2026-08-22,S04,Lost,Proposal Sent,Proposal Sent,Price too high,True,True,True,100,Hot
+L0342,Prime Kart,E-commerce,Bangalore,39,3.1,LinkedIn,2026-11-20,S02,Contacted,Contacted,,,True,False,True,50,Warm
+L0343,Kite Works,Startup,Delhi,27,0.9,LinkedIn,2026-11-08,S01,Contacted,Contacted,,,True,False,True,50,Warm
+L0344,Cedar Kart,E-commerce,Bangalore,529,36.5,Referral,2026-10-30,S02,Meeting Scheduled,Meeting Scheduled,,,False,True,True,80,Hot
+L0345,Tru Engineering,Manufacturing,Delhi,219,19.4,Cold Email,2026-06-03,S01,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0346,Silver Systems,IT,Delhi,324,26.9,LinkedIn,2026-06-05,S01,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0347,Lotus Technologies,IT,Bangalore,173,7.6,LinkedIn,2026-04-30,S02,Won,Won,,,True,True,True,75,Hot
+L0348,Spark Kart,E-commerce,Bangalore,327,34.2,Website,2026-08-31,S02,Lost,Negotiation,Negotiation,Price too high,True,True,True,100,Hot
+L0349,Cedar Engineering,Manufacturing,Hyderabad,190,12.7,Website,2026-10-07,S05,Proposal Sent,Proposal Sent,,,True,True,True,75,Hot
+L0350,Cedar AI,Startup,Chennai,43,5.1,LinkedIn,2026-10-26,S06,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0351,Coral Retail,E-commerce,Hyderabad,78,7.5,Cold Email,2026-04-20,S05,New Lead,New Lead,,,True,False,True,50,Warm
+L0352,Indus Infotech,IT,Chennai,153,18.2,LinkedIn,2026-08-26,S06,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0353,Apex Steel,Manufacturing,Delhi,339,34.4,LinkedIn,2026-09-03,S01,Lost,Proposal Sent,Proposal Sent,Went with competitor,False,True,True,80,Hot
+L0354,Silver Labs,IT,Chennai,124,9.7,LinkedIn,2026-06-20,S06,Lost,Contacted,Contacted,Not interested,True,False,True,50,Warm
+L0355,Vertex Infotech,IT,Mumbai,112,12.5,LinkedIn,2026-10-03,S03,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0356,Orbit Studio,Startup,Pune,42,3.6,Cold Email,2026-05-13,S04,Lost,Negotiation,Negotiation,Bad timing,True,True,True,75,Hot
+L0357,Green Store,E-commerce,Delhi,126,10.1,Referral,2026-09-29,S01,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0358,Orbit Industries,Manufacturing,Delhi,228,25.3,Cold Email,2026-11-15,S06,New Lead,New Lead,,,True,False,True,75,Hot
+L0359,Coral Ventures,Startup,Chennai,47,2.5,Cold Email,2026-06-27,S06,Lost,Qualified,Qualified,No budget,False,True,True,55,Warm
+L0360,Apex Digital,IT,Bangalore,143,16.8,Cold Email,2026-05-27,S02,Lost,Meeting Scheduled,Meeting Scheduled,Bad timing,True,True,True,75,Hot
+L0361,Nova Education,Education,Pune,363,27.6,LinkedIn,2026-08-08,S04,Lost,Proposal Sent,Proposal Sent,Went with competitor,True,True,True,80,Hot
+L0362,Core Pharma,Healthcare,Hyderabad,94,4.9,Cold Email,2026-10-26,S05,Lost,Contacted,Contacted,Not interested,True,False,True,30,Cold
+L0363,Swift Industries,Manufacturing,Bangalore,526,40.7,LinkedIn,2026-07-08,S02,New Lead,New Lead,,,False,False,True,55,Warm
+L0364,Crest Digital,IT,Mumbai,36,3.0,LinkedIn,2026-04-15,S03,Lost,Contacted,Contacted,Not interested,True,False,True,50,Warm
+L0365,Fusion Systems,IT,Bangalore,162,17.9,Referral,2026-08-10,S02,New Lead,New Lead,,,False,False,True,30,Cold
+L0366,Orbit Engineering,Manufacturing,Chennai,236,19.5,Website,2026-07-20,S01,Lost,Contacted,Contacted,No response,False,False,False,45,Warm
+L0367,Sapphire Industries,Manufacturing,Pune,242,11.9,LinkedIn,2026-04-15,S04,Lost,Negotiation,Negotiation,Price too high,True,True,True,100,Hot
+L0368,Vista Polymers,Manufacturing,Delhi,361,15.8,Events,2026-10-23,S01,Qualified,Qualified,,,True,True,True,100,Hot
+L0369,Green Manufacturing,Manufacturing,Delhi,197,13.3,LinkedIn,2026-09-19,S01,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0370,Prime Infotech,IT,Mumbai,107,12.6,Cold Email,2026-08-13,S03,Lost,Contacted,Contacted,Not interested,True,False,True,50,Warm
+L0371,Indus Pharma,Healthcare,Delhi,739,84.4,IndiaMART,2026-06-19,S06,New Lead,New Lead,,,True,False,True,55,Warm
+L0372,Fusion Securities,Finance,Mumbai,212,11.8,Referral,2026-08-28,S03,New Lead,New Lead,,,True,False,True,75,Hot
+L0373,Pixel Polymers,Manufacturing,Mumbai,136,13.4,LinkedIn,2026-06-20,S03,Lost,Meeting Scheduled,Meeting Scheduled,No budget,True,True,True,75,Hot
+L0374,Nexa Fintech,Finance,Bangalore,446,52.7,Cold Email,2026-09-24,S02,Lost,Meeting Scheduled,Meeting Scheduled,Went with competitor,False,True,True,80,Hot
+L0375,Crest Systems,IT,Hyderabad,226,16.5,Website,2026-09-05,S05,Lost,Qualified,Qualified,Using in-house tool,False,True,True,80,Hot
+L0376,Blue Systems,IT,Pune,50,3.4,Cold Email,2026-08-15,S04,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0377,Peak Technologies,IT,Mumbai,213,8.2,Referral,2026-09-26,S03,Won,Won,,,True,True,True,100,Hot
+L0378,Coral Bazaar,E-commerce,Delhi,148,14.9,Referral,2026-05-24,S01,Won,Won,,,False,True,True,55,Warm
+L0379,Apex Wealth,Finance,Chennai,424,39.1,LinkedIn,2026-09-24,S06,Lost,Qualified,Qualified,Not interested,False,True,True,80,Hot
+L0380,Aero Clinics,Healthcare,Delhi,158,8.4,Cold Email,2026-11-16,S01,Contacted,Contacted,,,False,False,True,10,Cold
+L0381,Ganga Technologies,IT,Chennai,129,15.0,Events,2026-10-31,S06,Lost,Qualified,Qualified,Using in-house tool,True,True,True,75,Hot
+L0382,Indus Manufacturing,Manufacturing,Bangalore,155,11.5,LinkedIn,2026-06-04,S02,New Lead,New Lead,,,True,False,True,50,Warm
+L0383,Cedar Auto Parts,Manufacturing,Hyderabad,251,10.2,Cold Email,2026-10-15,S03,New Lead,New Lead,,,True,False,True,75,Hot
+L0384,Peak Labs,Startup,Delhi,47,3.7,IndiaMART,2026-06-12,S01,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0385,Fusion Infotech,IT,Delhi,144,5.6,LinkedIn,2026-08-10,S01,Won,Won,,,True,True,True,75,Hot
+L0386,Saffron Works,Startup,Bangalore,45,2.4,Cold Email,2026-06-30,S02,Won,Won,,,True,True,True,75,Hot
+L0387,Coral Software,IT,Hyderabad,154,8.3,LinkedIn,2026-08-05,S05,Lost,Qualified,Qualified,No budget,False,True,True,55,Warm
+L0388,Swift AI,Startup,Pune,85,3.6,Events,2026-10-22,S04,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0389,Spark Credit,Finance,Bangalore,115,6.7,IndiaMART,2026-09-05,S02,Lost,Meeting Scheduled,Meeting Scheduled,Went with competitor,True,True,True,75,Hot
+L0390,Peak Works,Startup,Delhi,16,1.3,Website,2026-10-28,S01,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0391,Kite Clinics,Healthcare,Chennai,75,3.4,LinkedIn,2026-10-09,S06,New Lead,New Lead,,,True,False,True,30,Cold
+L0392,Saffron Clinics,Healthcare,Delhi,74,7.1,IndiaMART,2026-08-08,S01,New Lead,New Lead,,,True,False,True,30,Cold
+L0393,Fusion Studio,Startup,Bangalore,89,3.5,Referral,2026-05-01,S02,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0394,Crest Commerce,E-commerce,Chennai,78,5.0,Cold Email,2026-11-18,S06,Contacted,Contacted,,,True,False,True,50,Warm
+L0395,Arc Academy,Education,Mumbai,60,5.2,Cold Email,2026-06-28,S03,Lost,Meeting Scheduled,Meeting Scheduled,Went with competitor,True,True,True,55,Warm
+L0396,Peak Digital,IT,Hyderabad,71,5.8,Website,2026-11-03,S05,Qualified,Qualified,,,True,True,True,75,Hot
+L0397,Kite Learning,Education,Delhi,443,35.4,IndiaMART,2026-10-21,S01,Lost,Contacted,Contacted,No response,True,False,True,55,Warm
+L0398,Swift Technologies,IT,Chennai,471,48.9,Website,2026-10-31,S06,Meeting Scheduled,Meeting Scheduled,,,False,True,True,80,Hot
+L0399,Sapphire Ventures,Startup,Pune,70,5.9,LinkedIn,2026-09-02,S04,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0400,Blue Software,IT,Pune,117,9.7,Events,2026-07-27,S06,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0401,Bright Manufacturing,Manufacturing,Chennai,376,13.8,Events,2026-10-10,S06,New Lead,New Lead,,,False,False,True,55,Warm
+L0402,Bharat Studio,Startup,Bangalore,32,1.0,Events,2026-11-17,S02,Contacted,Contacted,,,False,False,True,30,Cold
+L0403,Blue Finance,Finance,Chennai,284,28.4,LinkedIn,2026-05-21,S06,Lost,Contacted,Contacted,Not interested,True,False,True,75,Hot
+L0404,Aero Auto Parts,Manufacturing,Pune,232,14.9,Referral,2026-04-23,S04,Won,Won,,,True,True,False,90,Hot
+L0405,Sapphire Commerce,E-commerce,Bangalore,75,6.6,Cold Email,2026-08-11,S02,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0406,Prime Labs,IT,Chennai,172,17.0,LinkedIn,2026-06-22,S06,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0407,Urban Infotech,IT,Bangalore,106,11.0,LinkedIn,2026-11-08,S02,Qualified,Qualified,,,True,True,True,75,Hot
+L0408,Indus Bazaar,E-commerce,Delhi,333,18.9,LinkedIn,2026-08-13,S01,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0409,Urban Institute,Education,Pune,303,30.5,Referral,2026-06-19,S04,Won,Won,,,True,True,True,80,Hot
+L0410,Coral Industries,Manufacturing,Chennai,410,32.9,Cold Email,2026-07-05,S03,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0411,Indus Technologies,IT,Delhi,182,12.5,LinkedIn,2026-10-25,S01,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0412,Prime Technologies,IT,Chennai,180,14.5,LinkedIn,2026-11-08,S06,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0413,Coral Works,Startup,Mumbai,19,1.9,IndiaMART,2026-10-17,S03,Lost,Contacted,Contacted,Not interested,True,False,True,50,Warm
+L0414,Spark Academy,Education,Chennai,125,14.7,Cold Email,2026-07-22,S06,Lost,Qualified,Qualified,Bad timing,True,True,True,55,Warm
+L0415,Nova Works,Startup,Bangalore,483,48.7,LinkedIn,2026-07-28,S02,Won,Won,,,True,True,True,100,Hot
+L0416,Zenith Software,IT,Bangalore,69,4.0,Website,2026-07-03,S05,Lost,Contacted,Contacted,Not interested,False,False,False,20,Cold
+L0417,Green Healthcare,Healthcare,Hyderabad,540,45.5,LinkedIn,2026-09-15,S05,Lost,Contacted,Contacted,No response,False,False,True,35,Cold
+L0418,Apex Schools,Education,Delhi,95,9.1,Website,2026-09-16,S01,Lost,Qualified,Qualified,Bad timing,False,True,True,35,Cold
+L0419,Urban Ventures,Startup,Mumbai,40,2.1,Events,2026-09-02,S03,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0420,Zenith Engineering,Manufacturing,Pune,214,7.6,Website,2026-09-05,S04,Won,Won,,,False,True,True,80,Hot
+L0421,Spark Clinics,Healthcare,Hyderabad,337,25.8,Cold Email,2026-10-12,S05,Lost,Contacted,Contacted,Not interested,False,False,True,35,Cold
+L0422,Saffron Healthcare,Healthcare,Bangalore,313,31.3,Website,2026-08-30,S02,Lost,Contacted,Contacted,No response,True,False,True,55,Warm
+L0423,Vista Technologies,IT,Mumbai,340,32.7,Cold Email,2026-10-25,S03,Meeting Scheduled,Meeting Scheduled,,,True,True,True,100,Hot
+L0424,Orbit Manufacturing,Manufacturing,Delhi,249,8.0,Cold Email,2026-10-17,S01,New Lead,New Lead,,,False,False,True,55,Warm
+L0425,Spark Schools,Education,Bangalore,557,45.6,Events,2026-04-14,S02,Lost,Contacted,Contacted,No response,False,False,True,35,Cold
+L0426,Sapphire Manufacturing,Manufacturing,Mumbai,208,22.2,LinkedIn,2026-10-15,S03,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0427,Green Clinics,Healthcare,Hyderabad,87,4.1,Website,2026-09-25,S05,Lost,Contacted,Contacted,No response,False,False,True,10,Cold
+L0428,Prime Finance,Finance,Bangalore,206,8.4,Website,2026-10-26,S02,Lost,Contacted,Contacted,Not interested,True,False,True,75,Hot
+L0429,Nexa Store,E-commerce,Pune,134,5.2,LinkedIn,2026-10-27,S02,New Lead,New Lead,,,True,False,True,50,Warm
+L0430,Nexa Ventures,Startup,Bangalore,30,1.7,LinkedIn,2026-10-21,S02,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0431,Aero Manufacturing,Manufacturing,Chennai,191,12.7,Cold Email,2026-08-27,S06,Lost,Proposal Sent,Proposal Sent,Went with competitor,True,True,True,75,Hot
+L0432,Urban Works,Startup,Mumbai,26,1.6,Website,2026-11-05,S03,Lost,Contacted,Contacted,Not interested,True,False,True,50,Warm
+L0433,Nova Studio,Startup,Delhi,25,2.9,Website,2026-04-30,S01,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0434,Urban Labs,IT,Bangalore,147,8.6,Website,2026-07-13,S02,New Lead,New Lead,,,True,False,True,50,Warm
+L0435,Lotus Finance,Finance,Bangalore,274,19.8,Website,2026-06-02,S02,Lost,Contacted,Contacted,No response,False,False,True,55,Warm
+L0436,Orbit Digital,IT,Chennai,108,4.7,LinkedIn,2026-09-05,S06,Lost,Proposal Sent,Proposal Sent,No budget,True,True,True,75,Hot
+L0437,Apex Finance,Finance,Mumbai,235,10.7,Cold Email,2026-10-04,S03,Proposal Sent,Proposal Sent,,,False,True,True,80,Hot
+L0438,Nexa Software,IT,Mumbai,376,16.1,Cold Email,2026-10-16,S03,Lost,Contacted,Contacted,Not interested,True,False,True,75,Hot
+L0439,Blue Store,E-commerce,Chennai,32,3.4,Cold Email,2026-07-25,S06,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0440,Maple Finance,Finance,Mumbai,136,7.5,Events,2026-07-23,S03,Lost,Qualified,Qualified,Bad timing,True,True,True,75,Hot
+L0441,Urban Academy,Education,Bangalore,56,2.6,Events,2026-09-17,S02,Negotiation,Negotiation,,,True,True,True,55,Warm
+L0442,Prime Schools,Education,Delhi,67,5.7,Website,2026-10-31,S01,Lost,Contacted,Contacted,No response,True,False,True,30,Cold
+L0443,Apex Education,Education,Hyderabad,29,2.2,Cold Email,2026-05-31,S05,Lost,Contacted,Contacted,Not interested,True,False,True,30,Cold
+L0444,Prime Capital,Finance,Pune,119,11.9,Cold Email,2026-04-04,S04,Won,Won,,,True,True,True,75,Hot
+L0445,Ganga Capital,Finance,Hyderabad,178,10.8,Referral,2026-08-21,S05,Lost,Contacted,Contacted,No response,False,False,True,30,Cold
+L0446,Aero Software,IT,Pune,491,26.1,Website,2026-08-25,S04,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0447,Delta Digital,IT,Hyderabad,129,3.9,Events,2026-08-05,S05,Lost,Negotiation,Negotiation,Went with competitor,False,True,True,55,Warm
+L0448,Cedar Clinics,Healthcare,Chennai,139,4.2,Referral,2026-08-30,S06,New Lead,New Lead,,,True,False,True,30,Cold
+L0449,Nexa Auto Parts,Manufacturing,Mumbai,434,48.9,Referral,2026-04-16,S03,Lost,Contacted,Contacted,Not interested,True,False,True,75,Hot
+L0450,Quantum Studio,Startup,Bangalore,58,3.2,LinkedIn,2026-05-11,S02,New Lead,New Lead,,,True,False,True,50,Warm
+L0451,Crest Academy,Education,Bangalore,108,12.3,Events,2026-11-19,S05,Contacted,Contacted,,,True,False,True,30,Cold
+L0452,Bright Technologies,IT,Hyderabad,471,14.8,LinkedIn,2026-10-31,S05,Lost,Contacted,Contacted,Not interested,True,False,True,75,Hot
+L0453,Nova Manufacturing,Manufacturing,Mumbai,310,24.8,LinkedIn,2026-09-01,S03,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0454,Tru Polymers,Manufacturing,Bangalore,159,10.8,LinkedIn,2026-04-24,S03,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0455,Indus Education,Education,Chennai,105,7.6,Website,2026-09-01,S06,Lost,Qualified,Qualified,Using in-house tool,True,True,True,55,Warm
+L0456,Fusion Works,Startup,Hyderabad,37,4.0,LinkedIn,2026-05-24,S05,New Lead,New Lead,,,True,False,True,50,Warm
+L0457,Tru Diagnostics,Healthcare,Hyderabad,361,14.9,Cold Email,2026-08-04,S05,Lost,Contacted,Contacted,Not interested,False,False,True,35,Cold
+L0458,Monsoon Wealth,Finance,Pune,97,6.8,Events,2026-10-19,S04,Lost,Meeting Scheduled,Meeting Scheduled,Bad timing,False,True,True,55,Warm
+L0459,Nexa Systems,IT,Pune,381,21.5,IndiaMART,2026-06-16,S04,Lost,Contacted,Contacted,No response,False,False,True,55,Warm
+L0460,Bharat AI,Startup,Mumbai,21,1.4,IndiaMART,2026-11-13,S03,Contacted,Contacted,,,False,False,True,30,Cold
+L0461,Bharat Fintech,Finance,Pune,119,5.8,IndiaMART,2026-07-18,S04,Lost,Qualified,Qualified,Bad timing,False,True,True,55,Warm
+L0462,Kite Infotech,IT,Delhi,164,10.7,Website,2026-10-09,S01,Lost,Meeting Scheduled,Meeting Scheduled,No budget,True,True,True,75,Hot
+L0463,Ganga Securities,Finance,Hyderabad,86,9.6,IndiaMART,2026-09-30,S05,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0464,Blue Ventures,Startup,Mumbai,59,6.7,Cold Email,2026-10-18,S05,Lost,Meeting Scheduled,Meeting Scheduled,Bad timing,True,True,True,75,Hot
+L0465,Bharat Engineering,Manufacturing,Delhi,245,22.4,LinkedIn,2026-09-02,S01,Lost,Qualified,Qualified,No budget,False,True,True,80,Hot
+L0466,Echo Hospitals,Healthcare,Chennai,706,39.3,Website,2026-10-10,S01,Lost,Qualified,Qualified,No budget,True,True,True,80,Hot
+L0467,Ganga Steel,Manufacturing,Delhi,259,28.6,LinkedIn,2026-11-05,S01,New Lead,New Lead,,,False,False,True,55,Warm
+L0468,Fusion Technologies,IT,Pune,173,15.0,LinkedIn,2026-11-16,S04,Qualified,Qualified,,,True,True,True,75,Hot
+L0469,Vertex Wealth,Finance,Hyderabad,213,7.5,Referral,2026-06-29,S05,Won,Won,,,True,True,True,100,Hot
+L0470,Lotus Labs,IT,Mumbai,240,16.4,Website,2026-09-15,S03,Lost,Contacted,Contacted,No response,False,False,True,55,Warm
+L0471,Blue Credit,Finance,Mumbai,329,12.4,Events,2026-08-30,S03,Lost,Negotiation,Negotiation,Went with competitor,True,True,True,100,Hot
+L0472,Silver Institute,Education,Bangalore,33,1.5,Cold Email,2026-05-30,S02,Lost,Qualified,Qualified,Not interested,False,True,True,35,Cold
+L0473,Sapphire Polymers,Manufacturing,Chennai,793,94.6,LinkedIn,2026-06-18,S06,Lost,Contacted,Contacted,Not interested,False,False,True,55,Warm
+L0474,Tru Capital,Finance,Mumbai,541,45.6,Cold Email,2026-04-11,S03,New Lead,New Lead,,,False,False,True,55,Warm
+L0475,Vista Digital,IT,Delhi,412,35.6,Cold Email,2026-07-30,S03,Lost,Contacted,Contacted,Not interested,True,False,True,75,Hot
+L0476,Coral Engineering,Manufacturing,Bangalore,572,37.0,Referral,2026-05-13,S02,New Lead,New Lead,,,True,False,True,75,Hot
+L0477,Green Kart,E-commerce,Mumbai,162,16.3,LinkedIn,2026-07-02,S03,Lost,Meeting Scheduled,Meeting Scheduled,Bad timing,False,True,True,55,Warm
+L0478,Blue Wealth,Finance,Bangalore,174,20.5,LinkedIn,2026-09-13,S02,Lost,Contacted,Contacted,No response,True,False,True,50,Warm
+L0479,Fusion Schools,Education,Delhi,202,17.6,LinkedIn,2026-11-17,S01,Qualified,Qualified,,,True,True,True,80,Hot
+L0480,Bharat Wealth,Finance,Bangalore,198,23.0,LinkedIn,2026-10-18,S02,Meeting Scheduled,Meeting Scheduled,,,False,True,True,55,Warm
+L0481,Arc Software,IT,Pune,466,37.1,Events,2026-06-12,S04,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0482,Cedar Industries,Manufacturing,Pune,227,6.9,Referral,2026-09-01,S04,Won,Won,,,True,True,True,100,Hot
+L0483,Lotus Capital,Finance,Bangalore,749,78.9,Website,2026-07-26,S02,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0484,Green Wealth,Finance,Delhi,507,48.1,LinkedIn,2026-10-07,S01,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0485,Nexa Credit,Finance,Mumbai,187,17.4,LinkedIn,2026-06-28,S03,Lost,Contacted,Contacted,Not interested,True,False,True,50,Warm
+L0486,Green Labs,IT,Bangalore,152,17.1,Website,2026-10-28,S02,Meeting Scheduled,Meeting Scheduled,,,True,True,True,75,Hot
+L0487,Tru AI,Startup,Bangalore,24,2.3,Referral,2026-07-01,S02,Won,Won,,,True,True,True,75,Hot
+L0488,Pixel Industries,Manufacturing,Pune,199,20.4,Website,2026-11-17,S04,Contacted,Contacted,,,True,False,True,50,Warm
+L0489,Saffron Finance,Finance,Hyderabad,147,5.3,Website,2026-05-24,S05,New Lead,New Lead,,,False,False,True,30,Cold
+L0490,Green Finance,Finance,Delhi,255,27.8,Referral,2026-08-25,S01,Lost,Negotiation,Negotiation,Price too high,True,True,True,100,Hot
+L0491,Aero Industries,Manufacturing,Bangalore,231,14.0,LinkedIn,2026-09-22,S02,Lost,Contacted,Contacted,No response,True,False,True,75,Hot
+L0492,Ganga Clinics,Healthcare,Mumbai,265,30.0,Website,2026-11-14,S06,Contacted,Contacted,,,True,False,True,55,Warm
+L0493,Prime Digital,IT,Mumbai,291,30.3,Referral,2026-11-06,S03,New Lead,New Lead,,,True,False,True,75,Hot
+L0494,Indus Capital,Finance,Bangalore,997,75.1,LinkedIn,2026-08-29,S02,Won,Won,,,True,True,True,100,Hot
+L0495,Silver Kart,E-commerce,Pune,688,74.7,LinkedIn,2026-09-24,S04,Won,Won,,,True,True,True,100,Hot
+L0496,Peak Software,IT,Delhi,192,11.4,Cold Email,2026-07-30,S01,Lost,Qualified,Qualified,Bad timing,False,True,True,55,Warm
+L0497,Nexa Manufacturing,Manufacturing,Delhi,270,24.3,Website,2026-05-05,S01,Lost,Contacted,Contacted,No response,False,False,True,55,Warm
+L0498,Arc Auto Parts,Manufacturing,Pune,88,6.8,LinkedIn,2026-06-19,S04,Lost,Contacted,Contacted,Not interested,True,False,True,50,Warm
+L0499,Orbit Hospitals,Healthcare,Mumbai,567,29.9,LinkedIn,2026-06-20,S03,Won,Won,,,True,True,True,80,Hot
+L0500,Lotus Systems,IT,Mumbai,176,7.1,Website,2026-06-12,S03,Won,Won,,,True,True,True,75,Hot

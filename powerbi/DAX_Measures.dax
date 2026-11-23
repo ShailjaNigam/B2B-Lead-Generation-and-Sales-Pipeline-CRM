@@ -1,0 +1,131 @@
+// =====================================================================
+// B2B Lead Generation & Sales Pipeline - Power BI DAX
+// Tables (from MySQL B2B_Sales_DB or dataset/*.csv):
+//   Leads, Contacts, Sales_Representatives, Activities, Opportunities, Pipeline_Stages
+// Create in Power BI Desktop: Modeling > New table / New column / New measure
+// =====================================================================
+
+// ---------- 1. Date table (Modeling > New table), then Table tools > Mark as date table ----------
+Date =
+ADDCOLUMNS (
+    CALENDAR ( DATE ( 2026, 4, 1 ), DATE ( 2026, 12, 31 ) ),
+    "Month", FORMAT ( [Date], "MMM YYYY" ),
+    "MonthNo", YEAR ( [Date] ) * 100 + MONTH ( [Date] )
+)
+// Date[Month] > Sort by column > MonthNo
+
+// ---------- 2. Report date (fixed to the data snapshot) ----------
+Report Date = DATATABLE ( "Report Date", DATETIME, { { "2026-11-23" } } )
+// For live use:  Report Date = ROW ( "Report Date", TODAY () )
+
+// ---------- 3. Calculated columns ----------
+// Leads > New column: order of the furthest stage reached (used by the funnel)
+Max Stage Order =
+LOOKUPVALUE ( Pipeline_Stages[stage_order], Pipeline_Stages[stage], Leads[max_stage_reached] )
+// Pipeline_Stages stays a disconnected table: it is only the axis of the funnel chart
+
+// Leads > New column: latest activity date
+Last Activity Date = MAXX ( RELATEDTABLE ( Activities ), Activities[activity_date] )
+
+// Leads > New column: next follow-up from the latest activity
+Next Follow-up =
+VAR lastDate = Leads[Last Activity Date]
+RETURN
+    MAXX ( FILTER ( RELATEDTABLE ( Activities ), Activities[activity_date] = lastDate ), Activities[next_followup] )
+
+// Leads > New column: follow-up status for open leads
+Follow-up Status =
+VAR rd = MAX ( 'Report Date'[Report Date] )
+VAR nf = Leads[Next Follow-up]
+RETURN
+    SWITCH (
+        TRUE (),
+        Leads[status] IN { "Won", "Lost" }, "Closed",
+        ISBLANK ( Leads[Last Activity Date] ), "Not contacted",
+        ISBLANK ( nf ), "No follow-up set",
+        nf < rd, "Overdue",
+        nf = rd, "Due today",
+        nf <= rd + 7, "Next 7 days",
+        "Later"
+    )
+
+// Leads > New column: days since the last touch (or since the lead was created)
+Days Idle =
+VAR rd = MAX ( 'Report Date'[Report Date] )
+RETURN INT ( rd - COALESCE ( Leads[Last Activity Date], Leads[lead_date] ) )
+
+// Opportunities > New column
+Weighted Value = Opportunities[deal_value] * Opportunities[probability] / 100
+
+// ---------- 4. Measures (create an empty "Measures" table to hold them) ----------
+// A. Overall sales performance
+Total Leads = COUNTROWS ( Leads )
+
+Qualified Leads = CALCULATE ( [Total Leads], Leads[Max Stage Order] >= 3 )
+
+Hot Leads = CALCULATE ( [Total Leads], Leads[lead_category] = "Hot" )
+
+Converted Customers = CALCULATE ( [Total Leads], Leads[status] = "Won" )
+
+Lost Leads = CALCULATE ( [Total Leads], Leads[status] = "Lost" )
+
+Conversion Rate = DIVIDE ( [Converted Customers], [Total Leads] )
+
+Win Rate = DIVIDE ( [Converted Customers], [Converted Customers] + [Lost Leads] )
+
+Total Pipeline Value =
+CALCULATE ( SUM ( Opportunities[deal_value] ), NOT Opportunities[stage] IN { "Won", "Lost" } )
+
+Weighted Pipeline Revenue =
+CALCULATE ( SUM ( Opportunities[Weighted Value] ), NOT Opportunities[stage] IN { "Won", "Lost" } )
+
+Revenue Won = CALCULATE ( SUM ( Opportunities[deal_value] ), Opportunities[stage] = "Won" )
+
+Average Deal Size = CALCULATE ( AVERAGE ( Opportunities[deal_value] ), Opportunities[stage] = "Won" )
+
+// C. Pipeline - funnel: leads that REACHED the stage on the axis (use Pipeline_Stages[stage] on the axis)
+Leads Reached Stage =
+VAR stageOrder = SELECTEDVALUE ( Pipeline_Stages[stage_order] )
+RETURN
+    CALCULATE ( [Total Leads], REMOVEFILTERS ( Pipeline_Stages ), Leads[Max Stage Order] >= stageOrder )
+
+Stage Drop-off % =
+VAR stageOrder = SELECTEDVALUE ( Pipeline_Stages[stage_order] )
+VAR prev = CALCULATE ( [Total Leads], REMOVEFILTERS ( Pipeline_Stages ), Leads[Max Stage Order] >= stageOrder - 1 )
+RETURN IF ( stageOrder > 1, 1 - DIVIDE ( [Leads Reached Stage], prev ) )
+
+Won Opportunities = CALCULATE ( COUNTROWS ( Opportunities ), Opportunities[stage] = "Won" )
+
+Lost Opportunities = CALCULATE ( COUNTROWS ( Opportunities ), Opportunities[stage] = "Lost" )
+
+// D. Sales rep performance (put Sales_Representatives[sales_name] on rows)
+Leads Assigned = [Total Leads]
+
+Deals Won = [Converted Customers]
+
+Rep Conversion Rate = [Conversion Rate]
+
+Avg Days to Close =
+AVERAGEX (
+    FILTER ( Opportunities, Opportunities[stage] = "Won" ),
+    INT ( Opportunities[close_date] - RELATED ( Leads[lead_date] ) )
+)
+
+// E. Follow-up management
+Overdue Follow-ups = CALCULATE ( [Total Leads], Leads[Follow-up Status] = "Overdue" )
+
+Follow-ups Due Today = CALCULATE ( [Total Leads], Leads[Follow-up Status] = "Due today" )
+
+Upcoming Follow-ups = CALCULATE ( [Total Leads], Leads[Follow-up Status] = "Next 7 days" )
+
+Leads Without Recent Activity =
+CALCULATE ( [Total Leads], Leads[Days Idle] >= 14, NOT Leads[status] IN { "Won", "Lost" } )
+
+// Lead source quality
+Qualification Rate = DIVIDE ( [Qualified Leads], [Total Leads] )
+
+// Dynamic headline for a card
+Headline =
+FORMAT ( [Weighted Pipeline Revenue], "₹#,##,##0" ) & " weighted pipeline · "
+    & [Overdue Follow-ups] & " follow-ups overdue · "
+    & FORMAT ( [Conversion Rate], "0.0%" ) & " conversion"

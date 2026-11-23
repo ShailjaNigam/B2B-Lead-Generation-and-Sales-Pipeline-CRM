@@ -1,0 +1,7 @@
+# Core (data pipeline + Flask backend)
+pandas>=2.0
+flask>=3.0
+gunicorn>=22.0     # production web server used when deploying (Render); not needed on Windows
+# Optional
+openpyxl>=3.1      # only to rebuild the Excel workbook
+pymysql>=1.1       # only if the backend should use MySQL (set DB_URL)
